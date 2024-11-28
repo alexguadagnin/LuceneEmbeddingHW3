@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 
 public class LuceneEvaluate {
 
+    // Implementa MRR e NDCG
     public static void MRR() throws IOException {
         // Ad ogni query associo la relativa lista di risultati
         LinkedHashMap<String, ArrayList<LuceneResult>> queryResults = new LinkedHashMap<>();
